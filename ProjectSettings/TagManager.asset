@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - playerAttack
+  - player
+  - colorStationYellow
+  - colorStationBlue
+  - colorStationRed
+  - cleanStation
+  - inkBlot
+  - LevelHandler
+  - unlockedDoor
+  - Pillar1
+  - Pillar2
+  - Pillar3
+  - Pillar4
+  - Boss
+  - room1EnemySpawner
+  - room2EnemySpawner
+  - level1Complete
+  - lockedDoor
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3687084267
+    locked: 0
+  - name: Enemies
+    uniqueID: 682545889
+    locked: 0
+  - name: Player
+    uniqueID: 1365717823
+    locked: 0
+  - name: Foreground
+    uniqueID: 4015005481
+    locked: 0
+  - name: Text
+    uniqueID: 2177731685
+    locked: 0

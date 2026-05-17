@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8153073848752858965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8153073848752858986}
+  - component: {fileID: 8153073848752858987}
+  m_Layer: 0
+  m_Name: levelHandler
+  m_TagString: LevelHandler
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8153073848752858986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8153073848752858965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.29335728, y: 0.032498706, z: -3.2924657}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8153073848752858987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8153073848752858965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 123208009cf6f1e4683e32dd9e1830ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secColorsActive: 1
+  levelOneColors:
+  - blue
+  - red
+  - yellow
+  levelTwoColors:
+  - blue
+  - red
+  - yellow
+  - purple
+  - orange
+  - green
+  blue: {r: 0.3101, g: 0.2572, b: 0.9245, a: 1}
+  red: {r: 0.9254, g: 0.278, b: 0.2588, a: 1}
+  yellow: {r: 0.9254, g: 0.9142, b: 0.2588, a: 1}
+  purple: {r: 0.6865, g: 0.1448, b: 0.8301, a: 1}
+  orange: {r: 1, g: 0.5026, b: 0, a: 1}
+  green: {r: 0.2259, g: 0.7169, b: 0.2063, a: 1}
